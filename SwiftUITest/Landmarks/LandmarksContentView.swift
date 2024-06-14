@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct LandmarksContentView: View {
+    @State private var modelData = LandmarksModelData()
+    
     var body: some View {
         LandmarksList()
+            .environment(modelData)
     }
 }
 
