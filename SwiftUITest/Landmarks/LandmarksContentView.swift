@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LandmarksContentView: View {
-    @State private var modelData = LandmarksModelData()
+    @State private var modelData = ModelData()
     
     var body: some View {
         LandmarksList()

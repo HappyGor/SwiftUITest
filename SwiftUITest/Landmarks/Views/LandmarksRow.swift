@@ -29,7 +29,7 @@ struct LandmarksRow: View {
 }
 
 #Preview {
-    let landmarks = LandmarksModelData().landmarks
+    let landmarks = ModelData().landmarks
     return Group {
         LandmarksRow(landmarkModel: landmarks[0])
         LandmarksRow(landmarkModel: landmarks[1])
