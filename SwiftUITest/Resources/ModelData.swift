@@ -11,7 +11,8 @@ import Foundation
 class ModelData {
     var landmarks: [LandmarksModel] = load("landmarkData.json")
     var hikes: [HikeModel] = load("hikeData.json")
-
+    var profile = ProfileModel.default
+    
     var categories: [String: [LandmarksModel]] {
         Dictionary(
             grouping: landmarks,
