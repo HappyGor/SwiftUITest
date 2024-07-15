@@ -11,7 +11,7 @@ struct LandmarksCircleImage: View {
     var image: Image
     
     var body: some View {
-        Image("turtlerock")
+        image
             .clipShape(Circle())
             .overlay {
                 Circle()
